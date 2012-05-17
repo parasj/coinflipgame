@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
 	$("#result_container").hide();
 	$("#flipbutton").click(function() {
 		flip();
